@@ -1,8 +1,8 @@
 # Cardiovascular Disease Prediction - KNN
 
-# Cardiovascular Disease Prediction using KNN
-
 A machine learning project using **K-Nearest Neighbors (KNN)** to predict the presence of cardiovascular disease based on patient health and lifestyle data.
+
+---
 
 ## Dataset
 
@@ -10,6 +10,8 @@ A machine learning project using **K-Nearest Neighbors (KNN)** to predict the pr
 * **Columns:** 13
 * **Target:** Cardiovascular disease (`0 = No CVD`, `1 = CVD`)
 * **Features:** Age, gender, height, weight, blood pressure, cholesterol, glucose, smoking, alcohol intake, and physical activity.
+
+---
 
 ## Project Workflow
 
