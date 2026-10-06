@@ -1,4 +1,4 @@
-# 📊 Cardiovascular Disease Prediction - KNN
+# 📊 Cardiovascular Disease Estimator - KNN
 
 > **Project Status: Completed**
 
