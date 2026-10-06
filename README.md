@@ -1,4 +1,4 @@
-# Cardiovascular Disease Prediction - KNN
+# 📊 Cardiovascular Disease Prediction - KNN
 
 > **Project Status: Completed**
 
@@ -7,11 +7,11 @@
 
 ## 📈 Project Overview
 
-This project uses machine learning to predict whether a person has cardiovascular disease based on health and lifestyle-related features such as age, height, weight, blood pressure, cholesterol, glucose level, smoking, alcohol consumption, and physical activity.
+- This project uses machine learning to predict whether a person has cardiovascular disease based on health and lifestyle-related features such as   age, height, weight, blood pressure, cholesterol, glucose level, smoking, alcohol consumption, and physical activity.
 
-The project uses the **K-Nearest Neighbors (KNN)** classification algorithm to make predictions.
+- The project uses the **K-Nearest Neighbors (KNN)** classification algorithm to make predictions.
 
-It includes a Jupyter Notebook for data analysis and model development, along with a Streamlit app that allows users to enter health information and receive a cardiovascular disease prediction.
+- It includes a Jupyter Notebook for data analysis and model development, along with a Streamlit app that allows users to enter health information   and receive a cardiovascular disease prediction.
 
 ---
 
