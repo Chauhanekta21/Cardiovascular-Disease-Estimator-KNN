@@ -17,15 +17,17 @@
 
 ## 📈 View Project
 
-### 🔹 **Cardiovascular Disease Prediction Live App:**
+### 🔹 **Cardiovascular Disease Estimator Live App:**
 
 * Enter health and lifestyle information and get a cardiovascular disease prediction using the trained KNN model.
 
-* **Link:** [cardiovascular-disease-prediction-streamlit-app](YOUR_STREAMLIT_LINK)
+* **Link:** [cardiovascular-disease-estimator-streamlit-app](https://cardiovascular-disease-estimator-knn.streamlit.app/)
 
 * **App Preview:**
 
-  [data](https://github.com/Chauhanekta21/Cardiovascular-Disease-Prediction/blob/main/images/app.png) ([image](https://github.com/Chauhanekta21/Cardiovascular-Disease-Prediction/raw/main/images/app.png))
+![Data Model](images/app1.png)
+
+![Data Model](images/app2.png)
 
 ---
 
@@ -33,11 +35,11 @@
 
 * Explore the complete process from raw data inspection and cleaning to statistical analysis, preprocessing, KNN model building, and evaluation.
 
-* **Link:** [cardiovascular-disease-prediction-jupyter-notebook](https://github.com/Chauhanekta21/Cardiovascular-Disease-Prediction/blob/main/jupyter_notebook/cardiovascular_disease_prediction.ipynb)
+* **Link:** [cardiovascular-disease-prediction-jupyter-notebook](https://github.com/Chauhanekta21/Cardiovascular-Disease-Estimator-KNN/blob/main/jupyter_notebook/cardiovascular_disease_knn.ipynb)
 
 * **Jupyter Notebook Preview:**
 
-  [data](https://github.com/Chauhanekta21/Cardiovascular-Disease-Prediction/blob/main/images/jupyter.png) ([image](https://github.com/Chauhanekta21/Cardiovascular-Disease-Prediction/raw/main/images/jupyter.png))
+![Data Model](images/jupyter.png)
 
 ---
 
@@ -91,11 +93,11 @@ Streamlit App
   * Alcohol consumption
   * Physical activity
 
-* **Dataset Link:** [cardiovascular-disease-dataset](YOUR_DATASET_LINK)
+* **Dataset Link:** [cardiovascular-disease-kaggle-dataset](https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset?utm_source=chatgpt.com)
 
 * **Dataset Preview:**
 
-  [data](https://github.com/Chauhanekta21/Cardiovascular-Disease-Prediction/blob/main/images/data.png) ([image](https://github.com/Chauhanekta21/Cardiovascular-Disease-Prediction/raw/main/images/data.png))
+![Data Model](images/dataset.png)
 
 ---
 
@@ -105,16 +107,12 @@ Streamlit App
 
 * Loaded the cardiovascular disease dataset for analysis and model development.
 
-  [data](YOUR_DATA_IMPORT_IMAGE_LINK)
-
 ---
 
 ### 🔹 Data Inspection
 
 * Inspected the dataset structure, data types, missing values, duplicate records, and feature distributions.
 * Examined numerical and categorical features to identify potential data-quality issues before cleaning.
-
-  [data](YOUR_DATA_INSPECTION_IMAGE_LINK)
 
 ---
 
@@ -133,6 +131,11 @@ The following validation rules were applied:
 * **Diastolic BP:** kept values above 0 and below 250 mmHg.
 * **Blood pressure relationship:** removed records where systolic BP was less than or equal to diastolic BP.
 
+* **Clean Dataset Preview:**
+
+![Data Model](images/clean_data.png)
+
+
 ---
 
 ### 🔹 Exploratory & Statistical Analysis
@@ -144,7 +147,8 @@ Several techniques were used to understand the relationship between the features
 * Calculated correlations between numerical features and cardiovascular disease.
 * Used a correlation heatmap to visualize relationships between numerical variables.
 
-  [data](YOUR_CORRELATION_IMAGE_LINK)
+![Data Model](images/correlation.png)
+
 
 #### Mann-Whitney U Test
 
@@ -176,6 +180,9 @@ Several techniques were used to understand the relationship between the features
 * Used cross-validation to compare model performance across different K values.
 * Selected the K value based on validation performance before evaluating the final model on the test set.
 
+![Data Model](images/model.png)
+
+
 ---
 
 ### 🔹 Model Evaluation
@@ -194,11 +201,11 @@ Test Accuracy: [YOUR ACCURACY]
 
 #### Confusion Matrix
 
-[data](YOUR_CONFUSION_MATRIX_IMAGE_LINK)
+![Data Model](images/confusion_matrix.png)
 
 #### Classification Report
 
-[data](YOUR_CLASSIFICATION_REPORT_IMAGE_LINK)
+![Data Model](images/report.png)
 
 ---
 
