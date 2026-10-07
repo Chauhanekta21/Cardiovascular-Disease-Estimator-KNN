@@ -2,6 +2,7 @@
 
 > **Project Status: Completed**
 
+![Data Model](images/thumbnail.png)
 
 ---
 
