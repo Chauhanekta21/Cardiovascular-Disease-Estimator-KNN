@@ -29,6 +29,8 @@
 
 ![Data Model](images/app2.png)
 
+![Data Model](images/app3.png)
+
 ---
 
 ### 🔹 **Jupyter Notebook:**
@@ -97,7 +99,7 @@ Streamlit App
 
 * **Dataset Preview:**
 
-![Data Model](images/dataset.png)
+![Data Model](images/data.png)
 
 ---
 
