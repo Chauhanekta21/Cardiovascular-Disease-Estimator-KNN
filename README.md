@@ -99,7 +99,7 @@ Streamlit App
 
 * **Dataset Preview:**
 
-![Data Model](images/dataset.png)
+![Data Model](images/data.png)
 
 ---
 
