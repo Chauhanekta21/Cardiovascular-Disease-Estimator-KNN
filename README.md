@@ -229,16 +229,21 @@ Test Accuracy: [YOUR ACCURACY]
 ```text
 Cardiovascular-Disease-Prediction/
 |-- data/
-|   `-- cardiovascular_disease.csv
-|-- images/
-|   `-- PNG files
+|   `-- cardio_train.csv
+|-- images/                       (11 image files)
 |-- jupyter_notebook/
-|   `-- cardiovascular_disease_prediction.ipynb
+|   `-- cardiovascular_disease_knn.ipynb
 |-- streamlit_app/
+|   |-- models/
+|   |   |-- knn_model.joblib
+|   |   `-- minmax_scaler.joblib
+|   |-- __pycache__/
+|   |   |-- app.cpython-314.pyc
+|   |   `-- build_artifacts.cpython-314.pyc
 |   |-- app.py
+|   |-- build_artifacts.py
 |   `-- requirements.txt
 |-- .gitattributes
-|-- .gitignore
 `-- README.md
 ```
 
