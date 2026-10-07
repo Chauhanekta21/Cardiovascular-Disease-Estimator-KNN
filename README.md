@@ -29,6 +29,8 @@
 
 ![Data Model](images/app2.png)
 
+![Data Model](images/app3.png)
+
 ---
 
 ### 🔹 **Jupyter Notebook:**
